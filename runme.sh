@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ ! -d build ]; then
+if [ ! -d run ]; then
     mkdir run
 fi
-if [ ! -f build/A ]; then
+if [ ! -f run/A ]; then
     python3 create_file.py
 fi
 make
