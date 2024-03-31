@@ -3,5 +3,5 @@
 Ярков Тимофей
 ## Как запустить
 ```bash
-./runme.sh > result.txt
+./runme.sh
 ```
