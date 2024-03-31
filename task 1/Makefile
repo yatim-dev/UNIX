@@ -1,7 +1,6 @@
 all:
-	gcc -o run/task1 task1.c
+	@gcc -o run/task1 task1.c
 
 clean:
-	rm -rf run/*
-	rmdir run/
-	rm result.txt
+	@rm -rf run/*
+	@rmdir run/

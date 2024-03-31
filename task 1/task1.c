@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
     };
     char *optstring = "b:";
 
-    for (;;) {
+    while (true) {
         if (getopt(argc, argv, optstring) == -1)
             break;
         
@@ -69,7 +69,7 @@ int main(int argc, char **argv) {
         close(fd_to_read);
     }
 
-    for (;;) {
+    while (true) {
         is_zero_block = true;
         read_bytes = read(fd_to_read, buffer, buffer_size);
         if (read_bytes == -1) {
