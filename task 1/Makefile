@@ -3,3 +3,5 @@ all:
 
 clean:
 	rm -rf run/*
+	rmdir run/
+	rm result.txt
